@@ -1,0 +1,14 @@
+<a 
+	href={{@href}} 
+  class="
+    hover:shadow-text
+    {{if this.isActive
+        "color-red"
+        "color-dark-blue"
+    }}
+  "
+  ...attributes
+  {{on 'click' this.navigate}}
+>
+  {{yield}}
+</a>

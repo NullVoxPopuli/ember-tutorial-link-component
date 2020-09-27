@@ -1,0 +1,30 @@
+body {
+  margin: 12px 16px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+}
+
+/* Tailwind Lite*/
+.grid {
+  display: grid; 
+}
+
+.gap-4 {
+  grid-gap: 1rem; 
+}
+
+.grid-flow-col {
+  grid-auto-flow: column; 
+}
+
+.color-red {
+  color: red; 
+}
+
+.color-dark-blue {
+  color: darkblue;
+}
+
+.hover\:shadow-text:hover {
+  text-shadow: 0px 1px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,30 @@
+<nav class="grid gap-4">
+  <Link @href="https://emberjs.com" target="_blank">
+    External Page
+  </Link>
+  
+	<Link @href="/">
+  	Index
+  </Link>
+  
+	<Link @href="/a">
+  	route a
+  </Link>
+  
+  <Link @href="/c">
+  	route c
+  </Link>
+  
+  <Link @href="/c/1">
+  	with dynamic segment
+  </Link>
+  
+  <Link @href="/c/1/foo">
+  	two dynamic segments
+  </Link>
+  
+  <Link @href="/c/1/foo?q=query&foo=bar&applicationQP=oof">
+    with query params
+  </Link>
+ 
+</nav>
